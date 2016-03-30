@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files = 'kakapoddemo', 'kakapoddemo/**/*.{h,m}'
-  s.exclude_files = 'kakapoddemo'
+ 
 
   # s.public_header_files = "Classes/**/*.h"
 
