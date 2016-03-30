@@ -7,8 +7,7 @@ Pod::Spec.new do |s|
   s.summary              = "try pod"
   s.homepage             = "https://github.com/niuxinghua/kakapoddemo"
   s.license              = { :type => "MIT", :file => "LICENSE" }
-  s.author             = { "XuYafei" => "xuyafei86@163.com" }
-  s.social_media_url   = "http://xuyafei.cn"
+  s.author             = { "niuxinghua" => "970626879@qq.com" }
   s.platform             = :ios, "7.0"
   s.source               = { :git => "https://github.com/niuxinghua/kakapoddemo.git", :tag => s.version }
   s.source_files          = "kakapoddemo/**/*.{h,m}"
