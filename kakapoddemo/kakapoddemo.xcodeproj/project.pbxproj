@@ -13,8 +13,6 @@
 		E0DB8A241CAB93DD000731A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0DB8A221CAB93DD000731A5 /* Main.storyboard */; };
 		E0DB8A261CAB93DD000731A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0DB8A251CAB93DD000731A5 /* Assets.xcassets */; };
 		E0DB8A291CAB93DD000731A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0DB8A271CAB93DD000731A5 /* LaunchScreen.storyboard */; };
-		E0DB8A341CAB93DE000731A5 /* kakapoddemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DB8A331CAB93DE000731A5 /* kakapoddemoTests.m */; };
-		E0DB8A3F1CAB93DE000731A5 /* kakapoddemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DB8A3E1CAB93DE000731A5 /* kakapoddemoUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,11 +44,7 @@
 		E0DB8A281CAB93DD000731A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0DB8A2A1CAB93DD000731A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0DB8A2F1CAB93DE000731A5 /* kakapoddemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kakapoddemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0DB8A331CAB93DE000731A5 /* kakapoddemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kakapoddemoTests.m; sourceTree = "<group>"; };
-		E0DB8A351CAB93DE000731A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0DB8A3A1CAB93DE000731A5 /* kakapoddemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kakapoddemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0DB8A3E1CAB93DE000731A5 /* kakapoddemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kakapoddemoUITests.m; sourceTree = "<group>"; };
-		E0DB8A401CAB93DE000731A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				E0DB8A181CAB93DD000731A5 /* kakapoddemo */,
-				E0DB8A321CAB93DE000731A5 /* kakapoddemoTests */,
-				E0DB8A3D1CAB93DE000731A5 /* kakapoddemoUITests */,
 				E0DB8A171CAB93DD000731A5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,24 +112,6 @@
 				E0DB8A1A1CAB93DD000731A5 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E0DB8A321CAB93DE000731A5 /* kakapoddemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				E0DB8A331CAB93DE000731A5 /* kakapoddemoTests.m */,
-				E0DB8A351CAB93DE000731A5 /* Info.plist */,
-			);
-			path = kakapoddemoTests;
-			sourceTree = "<group>";
-		};
-		E0DB8A3D1CAB93DE000731A5 /* kakapoddemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E0DB8A3E1CAB93DE000731A5 /* kakapoddemoUITests.m */,
-				E0DB8A401CAB93DE000731A5 /* Info.plist */,
-			);
-			path = kakapoddemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0DB8A341CAB93DE000731A5 /* kakapoddemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +261,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0DB8A3F1CAB93DE000731A5 /* kakapoddemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
