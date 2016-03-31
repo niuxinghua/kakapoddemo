@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author             = { 'niuxinghua' => '970626879@qq.com' }
   s.platform             = :ios, '7.0'
   s.source               = { :git => 'https://github.com/niuxinghua/kakapoddemo.git', :tag => s.version }
-  s.source_files          =  'kakapoddemo', 'kakapoddemo/**/*.{h,m}'
+  s.source_files          =  'CustomButton', 'CustomButton/**/*.{h,m}'
 
 
 end
